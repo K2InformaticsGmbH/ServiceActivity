@@ -4,4 +4,5 @@ Item	Date		Version		Comment
 001BC	27.03.2012	1.0.0.2		Error and Warning count are generated if the error/warning count is greater than 1 (previously greater than 2)
 002BC   15.05.2012  1.0.0.3     Changed ClusterService to NagiosLeader
 003BC   18.05.2012  1.0.0.4     New hagrp version return result in the format 'NagiosLeader State                 localclus:ZHHAPMOP-SBSA01 |ONLINE|' - parser updated
+004BC   07.02.2019  1.0.0.5     Support for also Unix style line ends (\n as well as \r\n) in .sal files
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
