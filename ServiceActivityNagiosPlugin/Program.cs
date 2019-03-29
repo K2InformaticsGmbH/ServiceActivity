@@ -287,7 +287,7 @@ namespace ServiceActivityNagiosPlugin
 #if DEBUG
                     Console.WriteLine("DEBUG: Processing " + fileName);
 #endif
-                    string[] lines = Regex.Split(fi.OpenText().ReadToEnd(), "\r\n");
+                    string[] lines = Regex.Split(fi.OpenText().ReadToEnd(), "\r\n|\n");     // 004BC
 
                     string hbTimeStamp = lines[1];
                     double timeDiff = (DateTime.Parse(DateTime.Now.ToString("yyyy'-'MM'-'dd HH:mm:ss")) - DateTime.Parse(hbTimeStamp.Trim())).TotalSeconds;

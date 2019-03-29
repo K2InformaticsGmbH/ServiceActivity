@@ -3,6 +3,8 @@
 ################################################################################
 
 /.vs/ServiceActivity/v15
-/ServiceActivityLogger/obj/Debug
-/ServiceActivityNagiosPlugin/bin/Debug/MEC_IC
-/ServiceActivityNagiosPlugin/obj/Debug
+*.user
+obj/
+bin/
+Deploy/
+*.swp
